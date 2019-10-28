@@ -1,4 +1,10 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# FilmsListInreact
+
+This app displays a list of films, and the user can click on the title of each film to go to an external website for further information.
+
+## Languages and Technologies
+
+The project was written in JavaScript, and was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 

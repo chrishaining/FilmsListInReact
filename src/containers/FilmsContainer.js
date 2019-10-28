@@ -37,10 +37,15 @@ class FilmsContainer extends Component {
 
     render() {
       return (
+        <React.Fragment>
         <div className="films-container">
-        <h2>WEEEEE</h2>
+        <h2>Upcoming Film Releases for the UK</h2>
         <FilmsList films={this.state.data}> </FilmsList>
         </div>
+        <div>
+        <a href="https://www.imdb.com/calendar/?region=gb" target="_blank">View more upcoming releases</a>
+        </div>
+        </React.Fragment>
       )
     }
 
