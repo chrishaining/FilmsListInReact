@@ -13,7 +13,9 @@ class FilmsList extends Component {
     })
     return (
       <div className="films-list">
+      <ul>
       {filmNodes}
+      </ul>
       </div>
     )
   }
